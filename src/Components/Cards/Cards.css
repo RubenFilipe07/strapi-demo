@@ -1,0 +1,42 @@
+  .card-item {
+      border: 1px solid #545c66;
+      border-radius: 6px;
+      color: #fafafa;
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      overflow: hidden;
+      background-color: #1a1e22;
+  }
+
+  .card-item a, h1, p {
+      color: #ffffff;
+  }
+
+  .card-item h1 {
+      text-transform: capitalize;
+      font-size: medium;
+  }
+
+  .card-item p {
+      color: #fafafa;
+      font-size: small;
+      margin-top: 10px;
+  }
+
+  .card-item pre{
+    white-space: pre-wrap;   
+  }
+
+  .card-item a{
+      background-color: #2ca8a294;
+      padding: 5px;
+      border: 1px solid #24a09abb;
+      max-width: fit-content;
+  }
+
+  .card-item a:empty {
+    display: none;
+}
+
